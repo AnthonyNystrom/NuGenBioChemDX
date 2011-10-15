@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Cylinder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e5d1dd68-456e-4b97-aa32-583b8362413c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Binaries\Shaders\BlinPhong.psh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Binaries\Shaders\BlinPhong.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
